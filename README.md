@@ -1,4 +1,3 @@
-# Voyage-analytics-mlop
 # Voyage Analytics Integrating MLOps in Travel Industry
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
