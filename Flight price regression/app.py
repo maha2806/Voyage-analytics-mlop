@@ -130,6 +130,5 @@ if __name__ == '__main__':
     
     flight_price_prediction_page()
 
-#streamlit run "PROJECT/streamlit and joblib flight data/FLIGHT PRICE PREDICT/app.py"
 
 
