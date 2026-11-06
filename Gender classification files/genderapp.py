@@ -41,5 +41,3 @@ if name:
         confidence = max(probability[0]) * 100
         st.metric("Predicted Gender", gender, f"{confidence:.1f}% confidence")
 
-#streamlit run "/Users/amolthakur/Desktop/MLops - Voyage analytics /PROJECT/GENDER_CLASSIFICATION/genderapp.py"
-#streamlit run "/Users/amolthakur/Desktop/MLops - Voyage analytics /PROJECT/streamlit and joblib flight data/GENDER_CLASSIFICATION/genderapp.py"
