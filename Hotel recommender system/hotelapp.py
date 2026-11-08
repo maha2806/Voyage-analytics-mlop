@@ -12,7 +12,7 @@ def load_data():
         if os.path.exists('hotel_features.csv'):
             return pd.read_csv('hotel_features.csv')
         else:
-            return pd.read_csv('/Users/amolthakur/Desktop/MLops project files/hotel_features.csv')
+            return pd.read_csv('hotel_features.csv')
     except FileNotFoundError:
         st.error("hotel_features.csv file not found. Please check the file path.")
         return pd.DataFrame()
@@ -25,7 +25,7 @@ def load_users_hotel_data():
         if os.path.exists('users_hotel_history.csv'):
             return pd.read_csv('users_hotel_history.csv')
         else:
-            return pd.read_csv('/Users/amolthakur/Desktop/MLops project files/users_hotel_history.csv')
+            return pd.read_csv('users_hotel_history.csv')
     except FileNotFoundError:
         st.error("users_hotel_history.csv file not found. Please check the file path.")
         return pd.DataFrame()
