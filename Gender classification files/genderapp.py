@@ -6,7 +6,7 @@ import os
 st.set_page_config(page_title="Name Gender Classifier", layout="wide")
 st.title("Name-Based Gender Prediction")
 
-model_file = '/Users/amolthakur/Desktop/MLops project files/Gender classification files/name_gender_classifier.pkl'
+model_file = 'Gender classification files/name_gender_classifier.pkl'
 
 # Check file existence
 if not os.path.exists(model_file):
